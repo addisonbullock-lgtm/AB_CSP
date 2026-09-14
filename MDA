@@ -1,0 +1,8 @@
+name="Addison"
+
+print (name)
+
+age=14
+
+print(age)
+
