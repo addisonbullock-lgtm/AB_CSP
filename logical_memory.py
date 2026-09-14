@@ -6,26 +6,21 @@ school= "UCAS"
 
 print(f"The variable pi has a value of{pi}and is saved at{id(pi)}")
 
-print(f"The variable school has a value of{schol}and is saved at{id(school)}")
+print (f"The variable school has a value of{school}and is saved at{id}(school)")
 
 
 
+name= "Alex"
 
+print (f"The variable {name} has a value of{name} and is saved at {id(name)}")
 
+age= 14
 
-
-
-
-
-name= "Addison"
-age= "14"
+print (f"The variable {age} has a value of{age}  and is saved at {id(age)}")
 
 score= 10
-score= 10
 
-hight= 5.9
-city= "Mapleton"
-zip_code= 84664
+print (f"The variable {score} has a value of {score} and is saved at {id(score)}")
 
-price1= 10
-price2= 10
+
+

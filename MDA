@@ -1,8 +1,9 @@
-name="Addison"
+name = "Alex"
+print(name)
 
-print (name)
-
-age=14
-
+age = 14
 print(age)
+
+
+
 
