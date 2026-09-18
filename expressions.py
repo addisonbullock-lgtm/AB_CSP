@@ -28,4 +28,13 @@ print(f"The average is {int(average)}")
 price= input("Hownmuch did the item cost:")
 tax= 0.485
 sales_tax= price*tax
-total= price+sales_taxprint(f"Your total is {total}")
+total= price+ sales_taxprint(f"Your total is {total}")
+
+while True:
+    try:
+        income=float(input(?))
+        break
+    exept:
+    print(rebuke them)
+    rent/income*100
+    f"${rent:.2f}
