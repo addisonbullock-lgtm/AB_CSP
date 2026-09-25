@@ -1,15 +1,9 @@
-# AB 7th silly sentences.py
+# AB Silly_sentences.py
 
-# XX, Period Y, Silly Sentences
-
-# Collect 6 user inputs
-verb = input("Tell me a verb ending in ing: ")
-place = input("Tell me a place: ")
-color = input("Tell me a color: ")
-travel = input("Tell me a way to travel: ")
-emotion = input("Tell me an emotion: ")
-animal = input("Tell me an animal: ")
-
-# Output the story using a single print statement and string concatenation
-
-print("I was running late for my " + verb + " job at " + place + " when my " + color + " " + travel + " was attacked by a " + emotion + " " + animal + "!")
+resturant=input("Tell me a type of resturant:")
+name=input= ("Tell me a boy name")
+bird=input= ("Tell me a type of bird")
+color=input= ("Tell me a color:")
+food=input=("Tell me a food item:")
+sun_glassesinput=("Tell me a type of sun_glasses:")
+noun=Input("Give me a story:")
