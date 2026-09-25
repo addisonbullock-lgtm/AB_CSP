@@ -1,7 +1,7 @@
-# AB, Hello User Assignment
+# AB, Hello User Assignment.py
 
-# Prompt the user to enter their name
-name = input("Addison")
+# Get user input for their name
+name = input("What is your name: ")
 
-# Print a greeting sentence that includes the user's name
-print("Hello " + name)
+# Print a sentence incorporating the user input
+print(f"Hello {name}")
