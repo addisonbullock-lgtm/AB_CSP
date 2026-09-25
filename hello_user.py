@@ -4,4 +4,4 @@
 name = input("Addison")
 
 # Print a greeting sentence that includes the user's name
-print("Hello " + name) 
+print("Hello " + name)
