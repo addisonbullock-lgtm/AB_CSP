@@ -53,4 +53,3 @@ else:
 while count<= 20:
     print(count)
     count += 2
-    
