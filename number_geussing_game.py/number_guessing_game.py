@@ -1,9 +1,9 @@
-# AB, Number Guessing game
 
-#I'm thinking of a number between 1 and 100. You have 6 tried to guess it
 
-counts= 100
-while geuss<= 6:
-    print(guess)
+count= 2
+
+while count<= 20:
+    print(count)
+    count += 2
     
     

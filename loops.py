@@ -46,3 +46,11 @@ for num in range(1,25):
     print("Buzz")
 else:
     print(num)
+
+# Starter
+    count= 2
+
+while count<= 20:
+    print(count)
+    count += 2
+    
