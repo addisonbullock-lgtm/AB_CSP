@@ -7,19 +7,23 @@
 
 import ceaser_shift
 
-encrypting= decrypying
-while shift<= encrypting:
-    if incrimanate (E)<= 1:
-        print(1)
-else:
-    if incrimanate (D)<= 2:
-        print(2)
+def calc_shift(E, B)
+    while True:
+        amount= float(input(f"Shift numbers E to {B}: "))
+        return amount
+    exept:
+        print(What is the shift?)
+
+#Make a loop
+
+count= A 
+
+while count <= Z:
+    print(count)
+    count += A
 
 
-ceaser_shift= input(message, shift)
-if (E)crypt or (D)ecrypt message E:
-    print(Dencrymiting)
-    break
+
 
 input=(inprints)
 print(Dencrypt)
