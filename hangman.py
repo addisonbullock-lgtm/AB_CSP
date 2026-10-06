@@ -1,34 +1,27 @@
 # AB, hangman.py
 
-with open("words.txt", "r") as file:
-    words= file.read(split("words.txt, r"))
-    connect= file.game()
-    connect= connect + "hangman"
-    print(connect)
-
-with open("hangman.txt", "w") as file:
-    file.game("Hangman")
-
-# Creating the game
-
 import random
 
-#Secret word would be A through Z
-secret_word= random.randint(A,Z)
+with open("words.txt", "r") as file:
+    words= file.read().splitlines()
 
-#The player gets 6 guesses
-max_guesses= 6
-print("We are playing hangman, I'm thinking of a word between A and Z. You have 6 tries to guess it")
+print(words)
 
-for attempt in range(1, max_guesses + 1):
-    guess= int(input("Guess #" + str(attempt) + ": "))
-    if guess < secret_word:
-        print("Wrong word dude")
-    elif guess > secret_word:
-        print("Wrong word dude")
-    else:
-        print("Hooray! YOU GOT THE WORD in " + str(attempt) + tries)
-        break
+#Random words
 
+secret_word= random.choice(words)
+print(secret_word)
+guessed_words = []
+
+display = []
+
+for word in secret_word:
+    display.append("_")
+
+print(display)
+
+guess= input("Guess a word: ").lower()
+if guess in secret_word.lower():
+    print("Great job, you guessed the word right, you shall pass high school!")
 else:
-    print("Sorry, you guessed the word wrong, the word was " + str(secret_word) + ".")
+    print("Sorry, that word is not in the word. You shall not pass high school!")

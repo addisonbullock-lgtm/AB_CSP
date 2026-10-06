@@ -1,0 +1,12 @@
+words.txt
+
+computor
+babaduke
+magic
+aliens
+student
+oompaloompa
+Potter
+Jackson
+Ollivander
+Nagini
