@@ -1,29 +1,42 @@
-#AB, Ceaser Cipher
+# AB, Caeser Cipher.py
 
-# function that does both encrypting and decrypting
-def caesar_shift(msg, shift):
-    ans = ""
-    for c in msg:
-        if c.isupper():
-            # upper case letters
-            ans += chr((ord(c) - 65 + shift) % 26 + 65)
-        elif c.islower():
-            # lower case letters
-            ans += chr((ord(c) - 97 + shift) % 26 + 97)
+def caesar_shift(message, shift):
+    result = ""
+
+    for letter in message:
+        number = ord(letter)
+        new_number = number + shift
+
+        if letter >= "A" and letter <= "Z":
+            if new_number > ord("Z"):
+                new_number = new_number - 26
+
+            new_letter = chr(new_number)
+
+        elif letter >= "a" and letter <= "z":
+            if new_number > ord("z"):
+                new_number = new_number - 26
+
+            new_letter = chr(new_number)
+
         else:
-            # spaces/ puncuations stay the same
-            ans += c
-    return ans
+            new_letter = letter
 
-# ask user for stuff
-mode = input("Would you like to (E)ncrypt or (D)ecrypt a message? ")
-text = input("Enter your message: ")
-s = int(input("Enter a shift amount: "))
+        result = result + new_letter
 
-if mode == "E" or mode == "e":
-    print("Your encrypted message is:", caesar_shift(text, s))
-elif mode == "D" or mode == "d":
-    # flipping shift number to go backwards
-    print("Your decrypted message is:", caesar_shift(text, -s))
-else:
-    print("Invalid choice!")
+    return result
+
+
+print(caesar_shift("Khoor", -3))
+
+choice = input("Do you want to (E)ncrypt or (D)ecrypt? ")
+message = input("Enter your message: ")
+shift = int(input("Enter the shift amount: "))
+
+if choice == "E" or choice == "e":
+    result = caesar_shift(message, shift)
+    print("Encrypted message:", result)
+
+elif choice == "D" or choice == "d":
+    result = caesar_shift(message, -shift)
+    print("Decrypted message:", result)
