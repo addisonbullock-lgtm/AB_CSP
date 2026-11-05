@@ -9,21 +9,45 @@
 
     <h1>Why I Like Pirates</h1>
 
-    <p>I like pirates because they are interesting and adventurous. 
-    I think ships, treasure, and the ocean are really cool. 
-    Pirates make history fun to learn about.</p>
+    <p>I like pirates because they are cool and interesting.
+    I like learning about their ships, treasure, and adventures.
+    I think pirates are fun to learn about.</p>
 
     <h2>Pirate Ships</h2>
 
-    <p>I like pirate ships because they look cool and have big sails. 
-    I think it would be interesting to see an old pirate ship in real life. 
-    I also like how they sailed across the ocean.</p>
+    <p>I like pirate ships because they look cool.
+    I think it would be fun to see a real pirate ship.</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Pirate_ship.svg" width="300">
+
+    <p>Picture credit: Antilived, public domain.</p>
 
     <h2>Pirate Treasure</h2>
 
-    <p>I like learning about pirate treasure because it makes pirates 
-    more interesting. I think treasure maps, gold, and hidden islands 
-    are really cool. Finding buried treasure would be an awesome adventure.</p>
+    <p>I like pirate treasure because gold and treasure maps are cool.
+    I think finding hidden treasure would be fun.</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Treasure-chest.svg" width="300">
+
+    <p>Picture credit: mystica, CC0 public domain.</p>
+
+    <h2>Things I Like About Pirates</h2>
+
+    <ul>
+        <li>Pirate ships</li>
+        <li>Gold</li>
+        <li>Treasure maps</li>
+        <li>Pirate flags</li>
+        <li>The ocean</li>
+    </ul>
+
+    <h2>Learn More About Pirates</h2>
+
+    <p>Here is a website where you can learn more about pirates.</p>
+
+    <a href="https://www.britannica.com/topic/piracy">
+        Click here to learn about pirates
+    </a>
 
 </body>
 </html>
